@@ -31,7 +31,9 @@ Add a CSV file of site URLs and tags to run with (Only available tag with this e
 
 Using tags can be done by including it at the end of your query: EG:
 
+```bash
 export BEHAT_PARAMS='{"extensions":{"Behat\\MinkExtension":{"base_url":"http://localhost"}}}'; bin/behat *--tags=@smoke*
+```
 
 Add the following to just check if the sitemap.xml can be found or if it 404's.
 
